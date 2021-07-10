@@ -1,0 +1,41 @@
+{
+  "name": "product-page-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "start": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chukky9/product-page-vue.git"
+  },
+  "author": "Alozie Chukwuemeka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chukky9/product-page-vue/issues"
+  },
+  "homepage": "https://github.com/Chukky9/product-page-vue#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.2",
+    "vue": "^3.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@vue/compiler-sfc": "^3.1.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "vue-loader": "^16.3.0",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
